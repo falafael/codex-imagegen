@@ -1,0 +1,19 @@
+{
+  "name": "codex-imagegen",
+  "version": "1.0.0",
+  "description": "Generate images from the command line by delegating to Codex CLI's built-in image_gen tool. No API key, no browser automation.",
+  "type": "module",
+  "main": "imagegen.mjs",
+  "bin": {
+    "imagegen": "./imagegen.mjs"
+  },
+  "scripts": {
+    "test": "node --test test/cli.test.js"
+  },
+  "keywords": ["codex", "image-generation", "gpt-image", "cli", "openai"],
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {},
+  "license": "MIT"
+}
