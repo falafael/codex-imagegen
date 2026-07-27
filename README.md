@@ -36,7 +36,7 @@ built-in tool, enforces the output location, and returns real file paths.
 ## Install
 
 ```bash
-git clone https://github.com/<your-username>/codex-imagegen.git
+git clone https://github.com/falafael/codex-imagegen.git
 cd codex-imagegen
 npm link          # optional, puts `imagegen` on your PATH
 node install-skill.mjs   # optional, registers the Claude Code skill
